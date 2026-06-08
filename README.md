@@ -7,8 +7,10 @@
 ---
 
 ## 🚀 Live Demo
+https://nausheen-frontend-portfolio.vercel.app/
+GitHub Repository:
+https://github.com/Nausheen01/nausheen-frontend-portfolio/
 
-**[nausheen-saifi.github.io/nausheen-portfolio]("https://nausheen-frontend-portfolio.vercel.app/")**
 
 ---
 
