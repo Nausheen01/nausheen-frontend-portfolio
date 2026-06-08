@@ -8,7 +8,7 @@
 
 ## 🚀 Live Demo
 
-**[nausheen-saifi.github.io/nausheen-portfolio](https://nausheen-saifi.github.io/nausheen-portfolio)**
+**[nausheen-saifi.github.io/nausheen-portfolio]("https://nausheen-frontend-portfolio.vercel.app/")**
 
 ---
 
