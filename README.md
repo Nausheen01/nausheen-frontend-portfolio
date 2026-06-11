@@ -11,6 +11,11 @@ https://nausheen-frontend-portfolio.vercel.app/
 GitHub Repository:
 https://github.com/Nausheen01/nausheen-frontend-portfolio/
 
+---
+## 💡 About
+
+A modern frontend developer portfolio showcasing my projects, technical skills, professional experience, and contact information. Designed with a clean UI, responsive layout, smooth animations, and dark/light theme support to provide an engaging user experience across all devices.
+
 
 ---
 
@@ -52,7 +57,7 @@ nausheen-portfolio/
 | Styles     | CSS3 Custom Properties + Tailwind CDN |
 | Scripts    | Vanilla JavaScript ES6+            |
 | Fonts      | Syne (display) + DM Sans (body)    |
-| Deployment | GitHub Pages                       |
+| Deployment | Vercel                      |
 
 ---
 
@@ -75,71 +80,6 @@ xdg-open index.html    # Linux
 2. Install **Live Server** extension (Ritwick Dey)
 3. Right-click `index.html` → **Open with Live Server**
 4. Auto-refreshes on every save ✓
-
----
-
-## 🔧 Customise
-
-Search for these placeholders and replace them with your real values:
-
-| Placeholder                    | Replace with                        |
-|--------------------------------|--------------------------------------|
-| `YOUR_GITHUB_USERNAME`         | Your GitHub username                 |
-| `YOUR_LINKEDIN_URL`            | Your LinkedIn profile path           |
-| `YOUR_EMAIL@gmail.com`         | Your email address                   |
-| `YOUR_LIVE_DEMO_LINK.com`      | Live URL of each project             |
-| `assets/Nausheen_Saifi_CV.pdf` | Your actual CV file                  |
-
----
-
-## 📬 Enable Contact Form (EmailJS – free)
-
-1. Sign up at [emailjs.com](https://www.emailjs.com)
-2. Add a **Gmail** or **Outlook** service
-3. Create an **Email Template** with variables `{{name}}`, `{{email}}`, `{{message}}`
-4. In `script.js`, replace the `setTimeout` block in `handleFormSubmit()` with:
-
-```js
-emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', { name, email, message })
-  .then(() => {
-    showFeedback(feedback, 'success', '✓ Sent! I\'ll reply soon.');
-  });
-```
-
-5. Add the EmailJS SDK before `</body>` in `index.html`:
-```html
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-<script>emailjs.init('YOUR_PUBLIC_KEY');</script>
-```
-
----
-
-## 🚢 Deploy to GitHub Pages (Free Hosting)
-
-```bash
-# 1. Initialise git & push
-git init
-git add .
-git commit -m "feat: initial portfolio"
-git branch -M main
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/nausheen-portfolio.git
-git push -u origin main
-
-# 2. Enable GitHub Pages
-# → Go to repo Settings → Pages
-# → Source: Deploy from branch → main / (root)
-# → Save → your site is live at:
-#   https://YOUR_GITHUB_USERNAME.github.io/nausheen-portfolio
-```
-
----
-
-## 📁 Recommended GitHub Repo Name
-
-```
-nausheen-portfolio
-```
-
 ---
 
 ## 📄 License
